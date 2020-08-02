@@ -43,7 +43,7 @@ El ejemplo anterior nos da una idea de *cuándo* escribir una función. Para que
 una función sea funcional (valga la redundancia), se recomienda que ésta sea:
 
 1. Correcta -- que produzca el resultado esperado.
-2. Robust -- idealmente, que sea robusta a casos inesperados (por ejemplo, valores NA). Véase el término (programación defensiva)[https://es.wikipedia.org/wiki/Programaci%C3%B3n_defensiva]. 
+2. Robust -- idealmente, que sea robusta a casos inesperados (por ejemplo, valores NA). Véase el término [programación defensiva](https://es.wikipedia.org/wiki/Programaci%C3%B3n_defensiva). 
 3. Entendible -- que el código se pueda leer.
 4. Eficiente -- si lo anterior se cumple, nos empezamos a preocupar que la función sea rápida.
    
@@ -84,7 +84,7 @@ all.equal(pi, pi_approx)
 all.equal(pi, pi_approx, tolerance = 1e-6)
 ```
 
-Normalmente, este tipo de revisiones se implementan como (pruebas unitarias)[https://es.wikipedia.org/wiki/Prueba_unitaria]. Por ejemplo, una 
+Normalmente, este tipo de revisiones se implementan como [pruebas unitarias](https://es.wikipedia.org/wiki/Prueba_unitaria). Por ejemplo, una 
 prueba unitaria para el ejemplo anterior usando el paquete *testthat*:
 
 ```{r}
